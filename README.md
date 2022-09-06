@@ -1,3 +1,9 @@
+INSTRUCTION FOR START
+
+1) chmod +x ./Supremo-Portable-Kali-Linux.sh
+2) start the file as root
+3) Enjoy
+
 #! /bin/sh
 clear
 dpkg --add-architecture i386 && apt-get update && apt-get install wine32 -y
